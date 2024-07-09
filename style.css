@@ -23,9 +23,11 @@
 .site_wrapper {
     display: flex;
     justify-content: center;
+    background-color: #7d765b3a;
 }
 
 .main_content .title {
+    color: #7d765b;
     font-size: 2.5rem;  
     text-decoration: underline;
     font-weight: 400;
@@ -39,9 +41,10 @@
 
 .main_content .personal_background > h3 {
     font-weight: var(--regular-weight);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 2vh;
     font-weight: 500;
+    color: #4a4842;
 }
 
 .personal_background {
@@ -53,4 +56,5 @@
 }
 
 .personal_background > p {
-}
+    color: #1a1a1a;
+}   
