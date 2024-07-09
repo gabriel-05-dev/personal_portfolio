@@ -10,17 +10,47 @@
 
 .main_content {
     font-family: var(--globalFont);
+    height: 100vh;
+    width: 60vw;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: solid 0.5px black;
+    border-right: solid 0.5px black;
+}
+
+.site_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.main_content .title {
+    font-size: 2.5rem;  
+    text-decoration: underline;
+    font-weight: 400;
+    margin-top: 3vh;
+    text-decoration-thickness: 2px;
+}
+
+.main_content .personal_background { 
+    margin-top: 1vw;
+}
+
+.main_content .personal_background > h3 {
+    font-weight: var(--regular-weight);
+    font-size: 1.2rem;
+    margin-bottom: 2vh;
+    font-weight: 500;
+}
+
+.personal_background {
+    width: 40vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.main_content > h1 {
-    text-decoration: underline;
-    font-weight: 400;
-}
-
-.main_content .personal_background > h3 {
-    font-weight: var(--regular-weight);
+.personal_background > p {
 }
