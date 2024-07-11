@@ -36,7 +36,7 @@
 }
 
 .main_content .personal_background { 
-    margin-top: 1vw;
+    margin-top: 1.5vh;
 }
 
 .main_content .personal_background > h3 {
@@ -73,5 +73,9 @@ h4 {
 
 .portfolio {
     margin-bottom: 1.5em;
+}
+
+.socials_title {
+    margin-top: 1.5vh;
 }
 
