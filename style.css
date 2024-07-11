@@ -47,6 +47,14 @@
     color: #4a4842;
 }
 
+h4 {
+    font-weight: var(--regular-weight);
+    font-size: 1rem;
+    margin-bottom: 1vh;
+    font-weight: 500;
+    color: #4a4842;
+}
+
 .personal_background {
     width: 40vw;
     display: flex;
@@ -57,4 +65,13 @@
 
 .personal_background > p {
     color: #1a1a1a;
-}   
+} 
+
+.personal_background > .intro_paragraph {
+    margin-bottom: 1.5em;
+}
+
+.portfolio {
+    margin-bottom: 1.5em;
+}
+
