@@ -6,11 +6,13 @@
 :root {
     --globalFont:'CopperPlate';
     --regular-weight:400;
+    --globalTextColour:rgb(4, 102, 200);
+    --titleColor:rgb(3, 83, 164);
 }
 
 .main_content {
     font-family: var(--globalFont);
-    height: 100vh;
+    height: 200vh;
     width: 60vw;
     background-color: #fafafa;
     display: flex;
@@ -23,11 +25,11 @@
 .site_wrapper {
     display: flex;
     justify-content: center;
-    background-color: #7d765b3a;
+    background-color: #ffffff;
 }
 
 .main_content .title {
-    color: #7d765b;
+    color: var(--titleColor);
     font-size: 2.5rem;  
     text-decoration: underline;
     font-weight: 400;
@@ -44,7 +46,7 @@
     font-size: 1.3rem;
     margin-bottom: 2vh;
     font-weight: 500;
-    color: #4a4842;
+    color: var(--globalTextColour);
 }
 
 h4 {
@@ -52,7 +54,7 @@ h4 {
     font-size: 1rem;
     margin-bottom: 1vh;
     font-weight: 500;
-    color: #4a4842;
+    color:var(--globalTextColour);
 }
 
 .personal_background {
